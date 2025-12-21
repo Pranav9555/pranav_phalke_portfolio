@@ -1,12 +1,26 @@
-# React + Vite
+## Pranav Phalke
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+#  Tech : Html, Scss,React.js, Sass, Framer Motion
+Designed and developed a responsive animated portfolio website to showcase projects and technical skills, implementing smooth, modern
+animations using Framer Motion.
 
-Currently, two official plugins are available:
+•Built a scalable, responsive layout with Sass for maintainable CSS architecture and integrated a functional contact form with an email
+notification system for direct user communication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# How to Run /view the project
+git clone https://github.com/Pranav9555/Personal-portfolio.git
+
+cd Personal-portfolio
+
+npm install
+
+npm run dev
+
+# Hosted Link
+https://pranav9555.github.io/Resume-ui/
+
+
+
