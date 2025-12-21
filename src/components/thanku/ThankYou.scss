@@ -1,0 +1,24 @@
+@import "../../App.scss";
+.thank-you-container  {
+  background-image: url('/background.jpg');
+  background-size:cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height : 100vh;
+
+
+
+  h1 {
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight:900;
+    letter-spacing: 0.5rem;
+    
+    @include mobile {
+      font-size: 2.5rem;
+      padding: 4px;
+  }
+}
+}

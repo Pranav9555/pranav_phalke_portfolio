@@ -1,0 +1,12 @@
+* -> npm i sass@1.68.0
+* : save css file to .scss
+* -> npm install motion
+npm i @emailjs/browser
+imp * -> practice framer motion in folder framer motion & inside in test.jsx
+
+1.write sections in app & some scss
+-app.jsx,app.scss
+- navbar , sidebar
+- hero
+-about
+- skills

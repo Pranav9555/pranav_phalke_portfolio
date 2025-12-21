@@ -1,0 +1,58 @@
+@import "../../App.scss";
+.about {
+  height : 100vh;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  font-family: "Zeyada", cursive;
+  font-weight: 500;
+
+  .left {
+    text-align:center;
+    width: 50%;
+
+      h1 {
+      font-size:110px;
+      letter-spacing: 5px;
+
+      @include mobile{
+        font-size: 50px;
+      }
+    }
+    h2 {
+      font-size:60px;
+      @include mobile{
+        font-size: 40px;
+      }
+    }
+
+  }
+  .social {
+    margin-top : 20px;
+    img {
+      width:50px;
+      height : 50px;
+      margin : 0 10px;
+      
+      @include mobile {
+        width:30px;
+        height : 30px;
+
+      }
+    }
+    img:hover {
+        filter: drop-shadow(1px 1px 15px #E2EFDE);
+  
+      }
+  }
+  .right {
+    width : 50%;
+    p {
+      font-size:3rem;
+      @include mobile {
+        font-size: 2rem;
+      }
+    }
+
+  }
+}
