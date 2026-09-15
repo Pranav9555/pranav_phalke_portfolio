@@ -1,4 +1,4 @@
-@import "../../App.scss";
+@use "../../App.scss" as app;
 
 .sidebar {
   display: flex;
@@ -17,7 +17,7 @@
     background-color: white;
     z-index: 999;
 
-    @include mobile {
+    @include app.mobile {
       width:200px;
     }
 
@@ -39,7 +39,7 @@
         text-decoration: none;
         color: #0c0c1d;
 
-        @include mobile {
+        @include app.mobile {
           font-size: 20px;
         }
       }

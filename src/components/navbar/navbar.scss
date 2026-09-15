@@ -1,4 +1,4 @@
-@import "../../App.scss";
+@use "../../App.scss" as app;
 .navbar {
   margin: 0px 100px;
   height: 100px;
@@ -32,7 +32,7 @@
     font-size: 20px;
     letter-spacing:3px;
 
-    @include mobile {
+    @include app.mobile {
       font-size: 10px;
     }
   }

@@ -2,8 +2,16 @@ import { motion, useScroll, useSpring } from "motion/react";
 import "./Project.scss"
 import { useRef } from "react";
 const items = [
-  {
+    {
     id: 1,
+    title: "InterviewPrep.ai",
+    img: "/aiInterview.png",
+    tech: "Tech: React.js, Redux, Framer Motion, TailwindCSS, Node.js, Express.js, MongoDB,Firebase, OpenRouter API",
+    desc: "Developed a full-stack AI-powered mock interview platform with secure user authentication and resume upload functionality.Implemented AI-based resume analysis, personalized interview question generation, voice-to-text interview responses, AI feedback, performance scorecards, and downloadable PDF reports",
+    link : "https://aiinterviewprep-platform.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Text to image generator",
     img: "/project.png",
     tech:"Tech : React.js, Express.js, MongoDB, ClipDrop API, JWT",
@@ -11,21 +19,14 @@ const items = [
     link : "https://github.com/Pranav9555/text-to-image-generator"
   },
   {
-    id: 2,
+    id: 3,
     title: "Resume Builder",
     img: "/Resume.png",
     tech:"Tech : html, css, React.js, Express.js, MongoDB",
     desc: "•Developed an interactive UI full-stack resume builder application enabling users to create and customize professional resumes.Provided features for creating, customizing, editing, and downloading resumes in multiple formats.",
     link : "https://github.com/Pranav9555/Resume-builder"
   },
-  {
-    id: 3,
-    title: "Personal Portfolio",
-    img: "/portfolio.png",
-    tech: "Tech: html, css, React.js, Sass, Framer Motion",
-    desc: "Designed and developed a responsive animated portfolio website to showcase projects and technical skills, implementing smooth, modern animations using Framer Motion.Built a scalable, responsive layout with Sass for maintainable CSS architecture and integrated a functional contact form with an email notification system for direct user communication.",
-    link : "https://github.com/Pranav9555/personal-portfolio",
-  },
+
 ];
 
 const Single = ({ item }) => {

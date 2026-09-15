@@ -57,7 +57,7 @@ function About() {
         </motion.div>
       </div>
       <motion.div className="right">
-        <motion.p variants={variants} initial="initial" animate={isInView ? "animate" : "initial"} ref={ref}>hello! i'm pranav phalke, a full stack developer pursuing MCA in pune maharashtra who enjoys building interactive website.</motion.p>
+        <motion.p variants={variants} initial="initial" animate={isInView ? "animate" : "initial"} ref={ref}>I’m Pranav Phalke, a Full Stack Developer with hands-on experience building responsive and interactive web applications using the MERN stack. I enjoy solving real-world problems and turning ideas into functional, user-friendly products.</motion.p>
       </motion.div>
     </div>
   )
