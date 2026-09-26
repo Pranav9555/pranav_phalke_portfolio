@@ -1,13 +1,24 @@
 @use "../../App.scss" as app;
 .thank-you-container  {
-  background-image: url('/background.jpg');
-  background-size:cover;
-  background-repeat: no-repeat;
+    position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height : 100vh;
+  height: 100vh;
+  overflow: hidden;
 
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+    transform: scale(1.05);
+    z-index: -1;
+  }
 
 
   h1 {

@@ -37,6 +37,9 @@ function Hero() {
 
   return (
     <div className="hero">
+      <div className="glow glow1" />
+      <div className="glow glow2" />
+
       <div className="wrapper">
         <motion.div
           className="textContainer"
@@ -83,14 +86,7 @@ function Hero() {
         </motion.div>
       </div>
 
-      <div className="slidingtext" aria-hidden="true">
-        <span>MERN STACK DEVELOPER&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-        <span>MERN STACK DEVELOPER&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-      </div>
-
-      <div className="imgContainer">
-        <img src="/profile4.png" alt="Pranav profile" />
-      </div>
+      
 
       <motion.div
         className="scrollIndicator"
